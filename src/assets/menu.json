@@ -1,0 +1,147 @@
+{
+    "categories":[
+        {
+            "id":"cold_drinks",
+            "name":"Cold Drinks",
+            "foodItems":[
+                {
+                    "id":0,
+                    "name":"Coca-Cola",
+                    "image":"/images/cola.jpg",
+                    "price":2.5
+                },
+                {
+                    "id":1,
+                    "name":"Sprite",
+                    "image":"/images/Sprite.jpg",
+                    "price":2.5
+                },
+                {
+                    "id":2,
+                    "name":"Pepsi",
+                    "image":"/images/pepsi.jpg",
+                    "price":2.5
+                },
+                {
+                    "id":3,
+                    "name":"Bottled Water",
+                    "image":"/images/water.jpeg",
+                    "price":1.0
+                }
+            ]
+        },
+        {
+            "id":"hot_drinks",
+            "name":"Hot Drinks",
+            "foodItems":[
+                {
+                    "id":3,
+                    "name":"Coffee",
+                    "image":"/images/coffee.jpg",
+                    "price":2.00
+                },
+                {
+                    "id":5,
+                    "name":"Hot Chocolate",
+                    "image":"/images/hot_chocolate.jpg",
+                    "price":2.00
+                },
+                {
+                    "id":10,
+                    "name":"Hot Chocolate",
+                    "image":"/images/tea.jpg",
+                    "price":1.00
+                }
+            ]
+        },
+        {
+            "id":"food",
+            "name":"Food",
+            "foodItems":[
+                {
+                    "id":6,
+                    "name":"Cheese Cake",
+                    "image":"/images/chees_cake.jpg",
+                    "price":3.00
+                },
+                {
+                    "id":7,
+                    "name":"Mixed Salad",
+                    "image":"/images/mixed_salad.jpg",
+                    "price":3.00
+                },
+                {
+                    "id":8,
+                    "name":"Chicken Salad",
+                    "image":"/images/chicken_salad.jpg",
+                    "price":4.00
+                },
+                {
+                    "id":9,
+                    "name":"Kebab",
+                    "image":"/images/meat.jpg",
+                    "price":5.0,
+                    "foodConfig":[{
+                        "id":"meat_option",
+                        "type":"singleSelect",
+                        "name":"Meat Option",
+                        "options":[
+                            {
+                                "id":"chicken",
+                                "name":"Chicken",
+                                "price":0
+                            },{
+                                "id":"lamb",
+                                "name":"Lamb",
+                                "price":1.5
+                            },{
+                                "id":"beef",
+                                "name":"Beef",
+                                "price":0
+                            }
+                        ]
+                    },{
+                        "id":"sauce_option",
+                        "type":"singleSelect",
+                        "name":"Sauce Option",
+                        "options":[
+                            {
+                                "id":"sweet_and_sour",
+                                "name":"Sweet & Sour",
+                                "price":0
+                            },{
+                                "id":"garlic_mayo",
+                                "name":"Garlic mayo",
+                                "price":0
+                            },{
+                                "id":"ketchup",
+                                "name":"Ketchup",
+                                "price":0
+                            }
+                        ]
+                        },{
+                        "id":"extras_option",
+                        "type":"multiSelect",
+                        "name":"Extras",
+                        "options":[
+                            {
+                                "id":"chips",
+                                "name":"Chips",
+                                "price":1.5
+                            },{
+                                "id":"rice",
+                                "name":"Rice",
+                                "price":1
+                            },{
+                                "id":"salad",
+                                "name":"Salad",
+                                "price":0
+                            }
+                        ]
+                    }]
+                }
+            ]
+        }
+        
+    ]
+}
